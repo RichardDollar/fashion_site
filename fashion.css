@@ -29,8 +29,11 @@ a{
 }
 .small-Menu li{
     display: block;
-    padding: 5px;
-    font-size: 1rem;
+    padding: 3px;
+    font-size: 0.9rem;
+    display: inline;
+    margin-top: 10px;
+    padding-top: 30px;
 
 }
 .large-Menu{
@@ -40,7 +43,6 @@ a{
     font-size: 2rem;
     align-items: center;
 }
-
 .Jasso_show{
     height: 150px;
     width: 150px;
@@ -107,6 +109,7 @@ a{
     color: azure;
     padding-left: 20px;
     padding-top:5px;
+    margin-top: -100px;
 
 }
 
@@ -130,6 +133,8 @@ a{
 }
  .Logo{
     color: azure;
+    font-size: 0.9rem;
+    padding-left: 3px;
 
  }
     
@@ -173,10 +178,22 @@ a{
     padding-top: 50px;
 
 }
+
+.buy_button{
+    border: 2px solid;
+    border-width: 4px;
+    border-color:rgb(224, 217, 217);
+    font: bolder;
+    font-weight: 100;
+    font-size: 0.9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    color: azure;
+}
 .grid_container{
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color:rgb(187, 161, 161);
+    background-color:rgb(76, 81, 88);
     background-size: 20px;
     padding: 20px;
     margin-top: 100px;
@@ -186,7 +203,7 @@ a{
 .silver_watch{
     border-radius: 5%;
     border: 2px solid;
-    border-color: rgb(20, 20, 20);
+    border-color:rgb(95, 94, 94);
     height: 40px;
     width: 40px;
 }
@@ -236,13 +253,14 @@ a{
     font-size: larger;
     width: 50px;
     height: 50px;
-    background-image: url(./Images/pat-taylor.jpg);
+    background-image: url(./Images/shoe.jpg);
     background-repeat: no-repeat;;
     background-size:cover;
     border-radius: 10px;
 }
 
 .grid1_content{
+    display: none;
     margin-top: 400px;
     position: absolute;
     margin-left: 30px;
@@ -257,7 +275,7 @@ a{
     font-size: larger;
     width: 50px;
     height: 50px;
-    background-image: url(./Images/ryan-plomp.jpg);
+    background-image: url(./Images/Man\ on\ suit.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     border-radius: 10px;
@@ -272,19 +290,20 @@ a{
 }
 
 .grid_item3{
-    display: none;
+    display: grid;
     background-color: rgb(218, 224, 224);
     border: 2px solid;
     font-size: 20px;
     width:50px;
     height:50px;
-    background-image: url(./Images/chris-henry-tV8yaU09t7w-unsplash.jpg);
+    background-image: url(./Images/pexels-maryia\ 2\ \(2\).jpg);
     background-repeat:repeat;
     background-size:contain;
     border-radius: 10px;
 }
 
 .grid3_content{
+display: grid;
     display: none;
     margin-top: 400px;
     position: absolute;
@@ -302,8 +321,86 @@ a{
      width:40px;
 }
 
+.main_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
 
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    margin-right: 50px;
+    }
+    
 
+.Twiter{
+    display: none;
+    height: 45px;
+    width: 45px;
+}
+.link_in{
+    display: none;
+    height: 45px;
+    width: 45px;
+}
+.Instagram{
+    display: none;
+    height: 46px;
+    width: 49px;
+}
+.Faccbook{
+    display: none;
+    height: 45px;
+    width: 45px;
+}
+
+.stay_connected{
+    color: azure;
+    font-size: medium;
+    margin-top: 40px;
+}
+
+.sign-up{
+    background-color: rgb(209, 41, 11);
+    border: 2px solid;
+    color: aliceblue;
+    width: 45px;
+    height: 20px;
+    font-size:0.6rem;
+}
+
+.H4content{
+    color: azure;
+    
+    }
+    
+    .shoppingorder{
+        color: azure;
+        margin-left:20px ;
+        font-size: 0.5rem;
+    }
+    
+    .h4content1{
+        color: azure;
+        margin-left: 30px;
+        font-size: 0.5rem;
+    }
+    
+    .footer{
+        background-color: darksalmon;
+        margin-left: 3px;
+    }
+    
+     /* .................About Us Section........................................... */
+
+     .BG{
+        background-color: darkgray;
+        background-size: contain;
+
+     }
 /* ---------------------------------------------desktop------------------------------------------------------ */
 
 @media screen and (min-width:769px) {
@@ -378,7 +475,9 @@ a{
 }
  .Logo{
     color: azure;
-
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
  }
 
 .nav{
@@ -394,9 +493,9 @@ a{
 
 .small-Menu{
     border: 2px solid;
-    display:flex;
+    /* display:flex; */
     height: 300px;
-    flex-direction: column;
+    /* flex-direction: column; */
     position: fixed;
     left: 0;
     top: 0px;
@@ -404,15 +503,20 @@ a{
     background-color:rgb(209, 211, 211);
     z-index: 100;
     backdrop-filter: blur(20px);
-    gap: 30%;
+    gap: 20px;
     align-items: center;
-    padding: 2rem;
+    padding:2rem;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 4rem;
     transition: all 2s;
     font-style:italic ;
     left: -100%;
     color: rgb(13, 14, 14);
+    margin-top: -40px;
+}
+.small-Menu ul{
+    display: flex;
+    flex-direction: column;
 }
 
 .show{
@@ -584,10 +688,10 @@ a{
 .grid_container{
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color:rgb(83, 95, 100);
     padding: 20px;
     margin-top: 100px;
     justify-content: space-evenly;
+    background-color: rgb(129, 128, 128);
 }
 
 .grid_item1{
@@ -600,6 +704,17 @@ a{
     background-size:cover;
     border-radius: 10px;
 }
+
+.grid1_content{
+    display: block;
+    margin-top: 400px;
+    position: absolute;
+    margin-left: 30px;
+    color: azure;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .grid_item2{
     border: 2px solid;
     border-color: azure;
@@ -650,9 +765,11 @@ a{
 
 .maindiv{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     padding-left: 50px;
     padding-top: 30px;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
 
 .email{
@@ -665,6 +782,7 @@ a{
 .stay_connected{
     color: azure;
     font-size: medium;
+    margin-top: -6px;
 }
 
 .sign-up{
@@ -675,21 +793,55 @@ a{
     height: 30px;
 }
 
+.socials{
+display: flex;
+flex-direction: row;
+gap: 3px;
+margin-right: 40px;
+}
+
 .Twiter{
-    height: 45px;
-    width: 45px;
+    display: block;
+    height: 30px;
+    width: 30px;
 }
 .link_in{
-    height: 45px;
-    width: 45px;
+    display: block;
+    height: 30px;
+    width: 30px;
 }
 .Instagram{
-    height: 46px;
-    width: 49px;
+    display: block;
+    height: 30px;
+    width: 30px;
 }
 .Faccbook{
-    height: 45px;
-    width: 45px;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+.H4content{
+color: azure;
+
+}
+
+.shoppingorder{
+    color: azure;
+    margin-left:20px ;
+    font-size: 1rem;
+}
+
+.h4content1{
+    color: azure;
+    margin-left: 30px;
+    font-size: 1rem;
+}
+
+.footer{
+    background-color: darksalmon;
+    margin-right: 40px;
+    width: 1260px;
 }
 
 }
