@@ -1,0 +1,1562 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.socials{
+    display:none;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    margin-right: 50px;
+    }
+    
+
+.Twiter{
+    display: none;
+    height: 10px;
+    width: 10px;
+}
+.link_in{
+    display: none;
+    height: 10px;
+    width: 10px;
+}
+.Instagram{
+    display: none;
+    height: 10px;
+    width: 10px;
+}
+.Facebook{
+    display: none;
+    height: 10px;
+    width: 10px;
+}
+
+.stay_connected{
+    color: azure;
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+.sign-up{
+    background-color: rgb(209, 41, 11);
+    border: 2px solid;
+    color: aliceblue;
+    width: 40px;
+    height: 20px;
+    font-size:0.6rem;
+}
+    
+    .shoppingorder{
+        color: azure;
+        margin-left:20px ;
+        font-size: 0.5rem;
+    }
+    
+    .h4content1{
+        color: azure;
+        margin-left: 30px;
+        font-size: 0.5rem;
+    }
+    
+    .footer{
+        width: 240px;
+        background-color: rgb(32, 30, 29);
+        margin-left: 3px;
+        background-size:90px;
+        background-repeat: no-repeat;
+    }
+
+     .BG{
+        background-color: darkgray;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+     }
+
+     
+
+.main-div{
+    display: flex;
+    position: relative;
+    /* position: fixed; */
+}
+
+.list-items li{
+    padding: 20px;
+    gap: 30px;
+}
+
+.running{
+    height: 20px;
+    width: 20px;
+
+}
+
+.run_writeup{
+    font-size: 0.8rem;
+    color: azure;
+    padding-right: 3px;
+    padding: 10px;
+}
+
+.log-in{
+    display: flex;
+    flex-direction: column;
+    margin-right: 53px;
+}
+
+.value{
+    border: 2px solid;
+    height: 20px;
+    width: 40px;
+    background-color: rgb(241, 33, 33);
+    color: azure;
+    font-size: 0.7rem;
+    border-radius: 10%;
+    padding-left: 3px;
+    margin-right: 4px;
+    margin-left: 15px;
+    margin-top: 19px;
+
+}
+
+.Logo{
+    /* display: none; */
+    color: rgb(156, 189, 189);
+    height: 60px;
+    width: 169px;
+    margin-left: 0px;
+    margin-right: 5px;
+ }
+
+ .nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding:5px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.right_content{
+    padding-left: 40px;
+    padding-top: 150px;
+
+}
+.list-items li{
+    list-style: none;
+    display:inline;
+    padding:0px;
+    color: azure;
+    font-size: 10px;
+    margin-left: -10px;
+    padding: 5px;
+}
+
+.Main_Grid{
+    width: 235px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    /* background-color: rgb(116, 94, 94); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:20px;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right:50px;
+    gap:1px;
+    border-color: rgb(184, 50, 150);
+    justify-content: space-around;
+}  
+
+.Grid1{
+    
+    border: 2px solid;
+    font-size: larger;
+    width: 75px;
+    height:75px;
+    background-image: url(./Images/short\ skirt.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top: -20px;
+
+}
+
+.Grid1-writeup{
+    padding-left:2px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+}
+
+.Grid2{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height:50px;
+    background-image: url(./Images/blue\ Jeans.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top: -5px;
+
+}
+
+.Grid2-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+}
+
+
+.Grid3{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height:50px;
+    background-image: url(./Images/white\ shoe1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top: -5px;
+
+}
+
+.Grid3-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+}
+
+/* .Grid4{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height:50px;
+    background-image: url(./Images/Goldwatch4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top:-5px;
+} */
+
+.Grid4-writeup{
+    display: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+
+}
+
+
+.Grid-container{
+    width: 255px;
+    display: grid;
+    grid-template-columns: auto auto  ;
+    /* background-color: rgb(252, 249, 249); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top:40px;
+    margin-top:-20px;
+    margin-left: 30PXpx;
+    margin-right: 40px;
+    gap:3px;
+    border-color: rgb(184, 50, 150);
+    justify-content: space-evenly;
+}
+
+.grid1{ 
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height:50px;
+    background-image: url(./Images/lady\ on\ gown.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.grid1-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 3px;
+}
+
+
+.grid2{ 
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/gown2.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+.grid2-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 3px;
+}
+    
+
+.grid3{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/gown.jpeg);
+    background-repeat:repeat;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+.grid3-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 3px;
+}
+   
+
+.grid4{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/gown3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid4-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 3px;
+}
+.grid5{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/Man\ on\ Jean.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid6{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/jeans2.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+.grid6-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 3px;
+}
+
+.grid7{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/jeans1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    padding-right: 40px;
+}
+
+.grid7-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 3px;
+}
+
+.grid8{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/Man\ On\ Jean2.jpeg);
+    background-repeat: repeat;
+    background-size:contain;
+    border-radius: 10px;
+    padding-top: 50px;
+} 
+.grid9{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/main\ suit.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid9-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+
+.grid10{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/suit1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid10-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid11{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/suit3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid11-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid12{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/suit2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+
+}
+
+.grid12-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid13{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/shoe.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+
+.grid13-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid14{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/office\ shoe3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid14-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid15{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/office\ shoe4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid15-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid16{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/office\ shoe1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid16-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid17{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/Goldwatch2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid17-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid18{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/Goldwatch1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid18-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid19{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/silverwatch.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}   
+.grid19-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid20{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/leather2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid20-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid21{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/white\ shoe2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid21-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid22{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/black\ sneacker.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid22-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid23{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/white\ shoe4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid23-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid24{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/ryan-plomp.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid24-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid25{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/red\ shoe.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid25-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid26{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/white\ shoe3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid26-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.grid27{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/Nick3.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+.grid27-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+
+.grid28{
+    border: 2px solid;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Images/yelloow\ b.warmer.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+ 
+.grid28-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.6rem;
+    padding-left: 10px;    
+}
+
+.Yellow{
+    position: relative;
+    width: 240px;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom:-40px;
+    margin-top: 20px;
+}   
+
+.lookz{
+    font-size: 0.7rem;
+    color: azure;
+    font-style: italic;
+}
+
+.happiness{
+font-size:1.2rem;
+color: rgb(240, 245, 245);
+font-style: italic;
+padding-right: 20px;
+}
+
+.Yellow-Content{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 17px;
+    padding-top:0;
+}
+
+/* ---------------------------------------------desktop------------------------------------------------------ */
+
+@media screen and (min-width:769px) {
+    .background{
+        background-color:rgb(245, 236, 236);
+    }
+
+.main_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.right_content{
+    padding-left: 40px;
+    padding-top: 150px;
+
+}
+ .Logo{
+    color: rgb(156, 189, 189);
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+ }
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:5px;
+}
+
+
+.maindiv{
+    display: flex;
+    flex-direction:row;
+    padding-left: 50px;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.email{
+    border: 2px solid;
+    border-color: rgb(29, 28, 28);
+    height: 30px;
+    width: 200px;
+}
+
+.stay_connected{
+    color: azure;
+    font-size: medium;
+    margin-top: -6px;
+}
+
+.sign-up{
+    background-color: rgb(209, 41, 11);
+    color: aliceblue;
+    width: 60px;
+    height: 30px;
+}
+
+.socials{
+display: flex;
+flex-direction: row;
+gap: 3px;
+margin-right: 40px;
+}
+
+.Twiter{
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+.link_in{
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+.Instagram{
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+.Facebook{
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+.H4content{
+color: azure;
+
+}
+
+.shoppingorder{
+    color: azure;
+    margin-left:20px ;
+    font-size: 1rem;
+}
+
+.h4content1{
+    color: azure;
+    margin-left: 30px;
+    font-size: 1rem;
+}
+
+.footer{
+    background-color: rgb(54, 44, 40);
+    margin-right:100px;
+    width: 1259px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: -60px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.log-in{
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.list-items li{
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    color: azure;
+    font-size: 15px;
+}
+
+.list-items li:hover{
+text-decoration: underline;
+text-transform:uppercase;
+}
+.running{
+    height: 30px;
+    width: 30px;
+
+}
+
+.run_writeup{
+    font-size: 0.8rem;
+    color: azure;
+    padding-right: 30px;
+}
+
+.value{
+    height: 30px;
+    width: 52px;
+    background-color: rgb(241, 33, 33);
+    color: azure;
+    font-size: 0.9rem;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    margin-right: 30px;
+    margin-top: 19px;
+
+}
+
+
+.main-div{
+    display: flex;
+    position: relative;
+}
+
+/* .Main_Grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    padding-top:40px;
+    margin-top: 10px;
+    gap: 5px;
+    border-color: rgb(184, 50, 150);
+    justify-content: space-between;
+
+} */
+
+.Main_Grid{
+    display: none;
+    width: 258px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    /* background-color: rgb(116, 94, 94); */
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top:20px;
+    margin-top: 30px;
+    margin-left: 2px;
+    margin-right: 0px;
+    gap: 3px;
+    justify-content: space-between;
+} 
+
+.Grid1{
+    
+    border: 2px solid;
+    font-size: larger;
+    width: 490px;
+    height:540px;
+    background-image: url(./Images/short\ skirt.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top: -20px;
+    padding-top: -5px;
+
+}
+
+.Grid1-writeup{
+    padding-left: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+}
+
+.Grid2{
+    border: 2px solid;
+    font-size: larger;
+    width: 250px;
+    height:250px;
+    background-image: url(./Images/blue\ Jeans.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.Grid2-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+}
+
+.Grid3{
+    border: 2px solid;
+    font-size: larger;
+    width: 250px;
+    height:250px;
+    background-image: url(./Images/white\ shoe1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top: 100px;
+
+}
+
+.Grid3-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+}
+
+.Grid4{
+    border: 2px solid;
+    font-size: larger;
+    width: 250px;
+    height:250px;
+    background-image: url(./Images/Goldwatch4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    margin-top:100px;
+}
+
+.Grid4-writeup{
+    display: block;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.Grid-container{
+    display:grid;
+    width: 258px;
+    grid-template-columns: auto auto auto auto ;
+    padding-top:20px;
+    margin-top: 10px;
+    margin-left: 22px;
+    gap:5px;
+    justify-content: space-between;
+}
+
+.grid1{ 
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height:300px;
+    background-image: url(./Images/lady\ on\ gown.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.grid1-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 3px;
+}
+
+.grid2{ 
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/gown2.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+.grid2-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 3px;
+}
+    
+
+.grid3{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/gown.jpeg);
+    background-repeat:repeat;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+.grid3-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 3px;
+}
+
+.grid4{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/gown3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid3-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 3px;  
+}
+.grid5{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/Man\ on\ Jean.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid6{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/jeans2.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+.grid6-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 3px;   
+}
+
+
+.grid7{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/jeans1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    padding-right: 40px;
+} 
+
+.grid7-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid8{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/Man\ On\ Jean2.jpeg);
+    background-repeat: repeat;
+    background-size:contain;
+    border-radius: 10px;
+    padding-top: 50px;
+} 
+.grid9{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 450px;
+    background-image: url(./Images/main\ suit.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid9-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid10{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 450px;
+    background-image: url(./Images/suit1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid10-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid11{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 450px;
+    background-image: url(./Images/suit3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid11-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid12{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 450px;
+    background-image: url(./Images/suit2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+
+}
+
+.grid12-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+.grid13{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/shoe.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+
+.grid13-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+
+.grid14{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/office\ shoe3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid14-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid15{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/office\ shoe4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid15-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+
+.grid16{
+        border: 2px solid;
+        font-size: larger;
+        width: 300px;
+        height: 300px;
+        background-image: url(./Images/office\ shoe1.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 10px;
+}
+
+
+.grid16-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid17{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/Goldwatch2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid17-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid18{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/Goldwatch1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid18-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid19{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/silverwatch.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.grid19-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+
+.grid20{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/leather2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid20-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid21{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 450px;
+    background-image: url(./Images/white\ shoe2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid21-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid22{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 450px;
+    background-image: url(./Images/black\ sneacker.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid22-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid23{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 450px;
+    background-image: url(./Images/white\ shoe4.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid23-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+
+.grid24{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 450px;
+    background-image: url(./Images/ryan-plomp.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid24-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid25{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/red\ shoe.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid25-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+
+.grid26{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/white\ shoe3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+} 
+
+.grid26-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+
+.grid27{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/Nick3.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 10px;
+}  
+
+.grid27-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.grid28{
+    border: 2px solid;
+    font-size: larger;
+    width: 300px;
+    height: 300px;
+    background-image: url(./Images/yelloow\ b.warmer.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}  
+
+.grid28-writeup{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 10px;    
+}
+
+.Yellow{
+position: relative;
+width: 1262px;
+height:410px;
+padding-top: -40px;
+padding-left: 1px;
+padding-bottom: -50px;
+}
+
+.lookz{
+    font-size: 1.9rem;
+    color: azure;
+    font-style: italic;
+}
+
+.happiness{
+font-size: 5rem;
+color: rgb(240, 245, 245);
+font-style: italic;
+}
+
+.Yellow-Content{
+    position: absolute;
+    margin-top: -199px;
+    margin-left: 170px;
+    padding-top:0;
+}
+
+}
+    @media screen and (min-width:1200px) {
+        
+    }
